@@ -18,7 +18,6 @@ import AcceptedApplicants from "./component/recruiter/AcceptedApplicants";
 import RecruiterProfile from "./component/recruiter/Profile";
 import MessagePopup from "./lib/MessagePopup";
 import { userType } from "./lib/isAuth";
-import randomColor from 'randomcolor';
 
 const useStyles = makeStyles((theme) => ({
   body: {
@@ -30,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "64px",
     boxSizing: "border-box",
     width: "100%",
-    background:randomColor(),
+    background:silver,
   },
 }));
 
