@@ -33,9 +33,9 @@ const Navbar = (props) => {
 
   return (
     <AppBar position="fixed" color="primary">
-        𝙉𝙖𝙪𝙠𝙧𝙞.𝙘𝙤𝙢
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
+        𝙉𝙖𝙪𝙠𝙧𝙞.𝙘𝙤𝙢
         </Typography>
         {isAuth() ? (
           userType() === "recruiter" ? (
